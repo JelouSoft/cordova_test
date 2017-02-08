@@ -5,7 +5,7 @@ function enviar_imagen()
             formData.append('foto_tomada', file); //append file to formData object
 
             $.ajax({
-                url: "../modelo/take_data.php",
+                url: "http://185.139.239.250/html5_camera_upload/modelo/take_data.php",
                 type: "POST",
                 data: formData,
                 processData: false, //prevent jQuery from converting your FormData into a string
