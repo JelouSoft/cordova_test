@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.pgb.brewapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+	<name>Cordova test</name>
+	<description>
+		A simple test of apache cordova.
+	</description>
+
+	<author email="seymourbutts@phonegap.com" href="http://phonegap.com">
+	   PhoneGap Team
+	</author>
+
+	<preference name="phonegap-version" value="cli-6.0.0" />
+	
+	<platform name="android">
+              <icon src="imagenes/1211813364.png" density="ldpi" />
+              <icon src="imagenes/1211813364.png" density="mdpi" />
+              <icon src="imagenes/1211813364.png" density="hdpi" />
+              <icon src="imagenes/1211813364.png" density="xhdpi" />
+     </platform>
+</widget>
