@@ -4,10 +4,25 @@
 <!-- Js para el form -->
 <script src="js/picture_upload.js"></script>
 
-<form class="upload-form">
-    <input type="file" id="photo" name="input_photo" class="input_photo" accept="image/*;capture=camera" onchange="enviar_imagen();"/> 
-</form>
+<!-- Estilo para el form-->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<html>
+	<head>
 	
-<div id="responde">
-	
-</div>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7">
+					<form class="upload-form">
+						<input type="file" id="photo" name="input_photo" class="input_photo" accept="image/*;capture=camera" onchange="enviar_imagen();"/> 
+					</form>
+				</div>
+				<div class="col-lg-5" id="responde">
+					<h5>Aqui se mostrara la imagen</h5>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
