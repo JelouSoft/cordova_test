@@ -18,3 +18,9 @@
               <icon src="imagenes/1211813364.png" density="xhdpi" />
      </platform>
 </widget>
+<feature name="Accelerometer">
+	<param name="android-package" value="org.apache.cordova.AccelListener" />
+</feature>
+<feature name="NetworkStatus">
+    <param name="android-package" value="org.apache.cordova.NetworkManager" />
+</feature>
