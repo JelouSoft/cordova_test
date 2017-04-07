@@ -13,10 +13,10 @@ function enviar_imagen()
 			contentType: false, //jQuery does not add a Content-Type header for you
 			success: function (msg) {
 				//alert(msg);
-				$('.nombre').html("Upload: "+data.nombre);
-				$('.tipo').html("Type: "+data.tipo);
-				$('.tamano').html("Size: "+data.tamano);
-				$("#responde").html("<img src='"+data.imagen+"'>");
+				$('.nombre').html("Upload: "+msg.nombre);
+				$('.tipo').html("Type: "+msg.tipo);
+				$('.tamano').html("Size: "+msg.tamano);
+				$("#responde").html("<img src='"+msg.imagen+"'>");
 			}
 		});
 	}

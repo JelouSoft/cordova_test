@@ -22,7 +22,7 @@
 	);
 
 	
-	echo $cadena_imagen
+	echo json_encode($cadena_imagen);
 
 /*
 Tomar el archivo recivido como un string, ideal para fomatos de texto sin formato como txt
