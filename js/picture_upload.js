@@ -5,7 +5,7 @@ function enviar_imagen()
 		formData.append('foto_tomada', file); //append file to formData object
 
 		$.ajax({
-			url: "modelo/take_data.php",
+			url: "jelousoft.com/cordova_test/modelo/take_data.php",
 			type: "POST",
 			data: formData,
 			dataType: "json",
