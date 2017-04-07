@@ -12,7 +12,7 @@ function enviar_imagen()
 			processData: false, //prevent jQuery from converting your FormData into a string
 			contentType: false, //jQuery does not add a Content-Type header for you
 			success: function (msg) {
-				alert(msg);
+				//alert(msg);
 				$('.nombre').html("Upload: "+msg.nombre);
 				$('.tipo').html("Type: "+msg.tipo);
 				$('.tamano').html("Size: "+msg.tamano);
